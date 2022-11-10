@@ -19,3 +19,7 @@ text-shadow: 0 2px 1px #79a06d,
 .cal-c{
     height: 400px;
 }
+.copy-right{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 15px;
+}
