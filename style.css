@@ -17,7 +17,7 @@ text-shadow: 0 2px 1px #79a06d,
     height: 250px;
 }
 .cal-c{
-    height: 400px;
+ padding: 7px;
 }
 .copy-right{
     font-family: 'Shadows Into Light', cursive;
