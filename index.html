@@ -129,8 +129,36 @@
                        <ol id="data"></ol>
                     </div>
                    </div>
-                   <div class="col-12 bg-dark p-2 w-75">
+                   <div class="col-12 bg-dark p-2 w-75 h00vh">
                     <h2 class="text-white text-center cal-c fs-5">Budget</h2>
+                    <div>
+                      <label class="text-white ms-4">Per Player</label>
+                      <input class="w-50 ms-2 rounded" id="per-player" type="text" value="1000"></div>br>
+                     <div class="text-center">
+                      <button onclick="calculate()" class="btn-success w-50 border-0" id="calc" type="calculate">Calculate</button>
+                     </div>
+                     <div class="d-flex justify-content-between mt-2">
+                      <p class="text-white  ms-4" >Player Expenses</p>
+                      <p class=" text-white">$<span id="player-expenses" class=" text-white"></span></p>
+                     </div>
+                    <div>
+                      <label class="text-white ms-4">Manager</label>
+                      <input class="w-50 ms-2 rounded" type="text" value="" id="manager">
+                    </div>br>
+                    <div>
+                      <label class="text-white ms-4">Coach</label>
+                      <input class="w-50 ms-4 rounded" type="text" value="" id="coach">
+                    </div>br>
+                    <div class="text-center">
+                      <button onclick="calculateTotal()" class="btn-success w-50 border-0" id="cal-total" type="calculate">Calculate Total</button>
+                     </div>
+                     <div class="d-flex justify-content-between mt-2">
+                      <p class="text-white ms-4" >Total</p>
+                      <p class=" text-white">$<span id="show-total" class=" text-white"></span></p>
+                     </div>
+                    </div>            
+                    </div>
+                    </div>
                 </div>
                </div>
             </div>
