@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.heading{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:45px;
+    color:#67875d;
+
+text-shadow: 0 2px 1px #79a06d, 
+      -1px 1px 1px #82ad75, 
+      -2px 1px 1px #8ebf80;
+}
+.player{
+    width: 400px;
+    height:350px;
+}
+.players{
+    height: 250px;
+}
+.cal-c{
+    height: 400px;
+}
