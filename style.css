@@ -23,3 +23,12 @@ text-shadow: 0 2px 1px #79a06d,
     font-family: 'Shadows Into Light', cursive;
     font-size: 15px;
 }
+@media screen and (max-width:980px) {
+   .img-part{
+       text-align: center;
+       margin-right: 45px;
+   }
+   .calc-section{
+      display: flex;
+   }
+}
