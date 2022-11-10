@@ -1,4 +1,3 @@
-console.log('heloo');
 let arrayObject = [];
 let count = 0;
 function showName(arrayObject) {
@@ -6,10 +5,15 @@ function showName(arrayObject) {
     showData.innerHTML = "";
     for (let i = 0; i < arrayObject.length; i++) {
         console.log(arrayObject.length);
-        const li = document.createElement("li");
-        li.innerHTML = `
-        <li class="text-white ms-2" style='list-style-type: none;'}>${i + 1}. ${arrayObject[i]}</li>`
-        showData.appendChild(li);
+        if(arrayObject.length == 6){
+            return;
+        }
+        else{
+            const li = document.createElement("li");
+            li.innerHTML = `
+            <li class="text-white ms-2" style='list-style-type: none;'}>${i + 1}. ${arrayObject[i]}</li>`
+            showData.appendChild(li);
+        }
     }
 }
 function addToCart(element) {
